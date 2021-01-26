@@ -15,11 +15,11 @@ git clone https://github.com/liorkasti/recipes-app.git
 ```
 * You will need node and npm installed globally on your machine. Run:
 ```
-yarn``` / ```npm i
+yarn / npm i
 ```
 * To start metro bundler, run:
-``` 
-yarn start ``` / ```npm start``` / ```npx react-native start
+```
+yarn start / npm start / npx react-native start
 ```
 * To start the app on your machine, open a new terminal inside your React Native project folder. Run the following:
 ```
