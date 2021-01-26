@@ -1,7 +1,8 @@
 {
-  "private": true,  
   "name": "RecipesApp",
+  "created by": "Lior Kastenbaum",
   "version": "1.0.0",
+  "private": true,  
   "scripts": {
     "start": "react-native start",
     "android": "react-native run-android",

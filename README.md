@@ -1,18 +1,28 @@
 # Recipes App in React Native
-
+## Description:
+A react-native app that allows users to browse food recipes, read their description & cooking steps and visualize their ingredients. For each ingredient, users can also browse all the recipes that use that specific ingredient. The app also has support for recipe categories and comprehensive native search functionality. Additionally, all the data feed is modularized, so you can plug in your own backend effortlessly.
 <center><a href="https://www.instamobile.io/app-templates/food-app-template/"><img src="https://www.instamobile.io/wp-content/uploads/2019/07/Screen-Shot-2019-07-22-at-8.56.44-PM.png" /></a></center>
 
-Download this beautiful free React Native starter kit, featuring a recipes app, to bootstrap your mobile app development. Learn React Native by working on a real project. Get familiar with various native components, navigation, redux and more.
-
 ## Getting Started
-To run the app, simply run
-
-``` npm install && expo start ```
-
-And scan the QR code in the Expo client app.
-
-## Expo Demo
-<center><a href=""><img src="https://www.instamobile.io/wp-content/uploads/2019/07/Screen-Shot-2019-07-22-at-8.20.29-PM.png" /></a></center>
+To run the app, please follow the instructions and setup a development environment for the project.
+### Setup:
+* Install the latest LTS version of Node.js from the current address -
+https://nodejs.org/en/download/.
+### Installation:
+2. Open your command line in Visual Studio Code or Windows Shell and run
+```
+git clone https://github.com/liorkasti/recipes-app.git
+```
+You will need node and npm installed globally on your machine. Run:
+```
+yarn / npm i
+```
+To start run:
+```
+npx react-native run-android
+&
+yarn start / npm start
+```
 
 ## Features
 - Recipes List
@@ -31,5 +41,6 @@ And scan the QR code in the Expo client app.
 - Compatible with Expo
 - Highly modularized codebase
 
+###### TODOs: 
+* Debug ActivateIndicator and add style to it
 
-Coded with 💖💖💖 by <a href="https://www.instamobile.io/">Instamobile</a> and <a href="https://www.instakotlin.com/">Instakotlin</a>.
