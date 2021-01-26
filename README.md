@@ -9,20 +9,20 @@ To run the app, please follow the instructions and setup a development environme
 * Install the latest LTS version of Node.js from the current address -
 https://nodejs.org/en/download/.
 ### Installation:
-2. Open your command line in Visual Studio Code or Windows Shell and run
+* Open your command line in Visual Studio Code or Windows Shell and run
 ```
 git clone https://github.com/liorkasti/recipes-app.git
 ```
-You will need node and npm installed globally on your machine. Run:
+* You will need node and npm installed globally on your machine. Run:
 ```
 yarn / npm i
 ```
-To start run:
+* To start metro bundler, run
+yarn start / npm start / npx react-native start
+```
+* To start the app on your machine, open a new terminal inside your React Native project folder. Run the following:
 ```
 npx react-native run-android
-&
-yarn start / npm start
-```
 
 ## Features
 - Recipes List
