@@ -1,4 +1,6 @@
 {
+  "displayName": "recipes-app",
+  "name": "RecipesApp",
   "expo": {
     "name": "recipes-app",
     "slug": "recipes-app",
@@ -28,7 +30,5 @@
       "supportsTablet": true
     },
     "entryPoint": "node_modules/expo/AppEntry.js"
-  },
-  "displayName": "recipes-app",
-  "name": "RecipesApp"
+  }
 }

@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Tue Jan 26 17:01:52 IST 2021
+#Tue Jan 26 18:42:22 IST 2021
 56.path=lib/x86_64/libfolly_futures.so
 5.base=C\:\\Users\\user\\workspace\\RecipesApp\\android\\app\\build\\intermediates\\transforms\\mergeJniLibs\\debug\\0
 42.base=C\:\\Users\\user\\workspace\\RecipesApp\\android\\app\\build\\intermediates\\transforms\\mergeJniLibs\\debug\\0

@@ -21,8 +21,8 @@ yarn / npm i
 yarn start / npm start / npx react-native start
 ```
 * To start the app on your machine, open a new terminal inside your React Native project folder. Run the following:
-```
 npx react-native run-android
+```
 
 ## Features
 - Recipes List
