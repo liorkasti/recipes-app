@@ -13,6 +13,7 @@ import DrawerContainer from '../screens/DrawerContainer/DrawerContainer';
 import IngredientScreen from '../screens/Ingredient/IngredientScreen';
 import SearchScreen from '../screens/Search/SearchScreen';
 import IngredientsDetailsScreen from '../screens/IngredientsDetails/IngredientsDetailsScreen';
+import FavoritesScreen from '../screens/Favorites/Favorites';
 
 /* const Stack = createStackNavigator();
 
@@ -47,7 +48,8 @@ const MainNavigator = createStackNavigator(
     RecipesList: RecipesListScreen,
     Ingredient: IngredientScreen,
     Search: SearchScreen,
-    IngredientsDetails: IngredientsDetailsScreen
+    IngredientsDetails: IngredientsDetailsScreen,
+    Favorites: FavoritesScreen
   },
   {
     initialRouteName: 'Home',
@@ -100,6 +102,7 @@ const DrawerStack = createDrawerNavigator(
   )
 } */
  
-export default AppContainer = createAppContainer(DrawerStack);
+// export default MainNavigator = createAppContainer(DrawerStack);
+export default MainNavigator = (DrawerStack);
 
 console.disableYellowBox = true;

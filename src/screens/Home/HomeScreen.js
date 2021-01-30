@@ -37,6 +37,7 @@ export default class HomeScreen extends React.Component {
   render() {
     return (
       <View>
+        <Text>eee</Text>
         <FlatList
           vertical
           showsVerticalScrollIndicator={false}

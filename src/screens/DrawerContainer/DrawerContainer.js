@@ -3,6 +3,7 @@ import { View } from 'react-native';
 import PropTypes from 'prop-types';
 import styles from './styles';
 import MenuButton from '../../components/MenuButton/MenuButton';
+import Favorites from '../Favorites/Favorites';
 
 export default class DrawerContainer extends React.Component {
   render() {
@@ -31,6 +32,14 @@ export default class DrawerContainer extends React.Component {
             source={require('../../../assets/icons/search.png')}
             onPress={() => {
               navigation.navigate('Search');
+              navigation.closeDrawer();
+            }}
+          />
+          <MenuButton
+            title="Favorites"
+            source={require('../../../assets/icons/favorites-unselect.png')}
+            onPress={() => {
+              navigation.navigate('Favorites');
               navigation.closeDrawer();
             }}
           />

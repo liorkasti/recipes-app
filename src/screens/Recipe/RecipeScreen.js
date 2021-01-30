@@ -12,7 +12,9 @@ import {
 import styles from './styles';
 import Carousel, { Pagination } from 'react-native-snap-carousel';
 import { getIngredientName, getCategoryName, getCategoryById } from '../../data/MockDataAPI';
+import MenuButton from '../../components/MenuButton/MenuButton';
 import BackButton from '../../components/BackButton/BackButton';
+import AddFavoriteButton from '../../components/AddFavoriteButton/AddFavoriteButton';
 import ViewIngredientsButton from '../../components/ViewIngredientsButton/ViewIngredientsButton';
 
 const { width: viewportWidth } = Dimensions.get('window');
@@ -21,11 +23,19 @@ export default class RecipeScreen extends React.Component {
   static navigationOptions = ({ navigation }) => {
     return {
       headerTransparent: 'true',
-      headerLeft: () => <BackButton
+      headerLeft: (() => <BackButton
         onPress={() => {
           navigation.goBack();
         }}
-      />
+      />),
+      headerRight: (() =>
+        <AddFavoriteButton
+          onPress={() => {
+            navigation.navigate('Favorites');
+            // onPressFavorite={() => props.setIndexPagination((props.indexPagination) - 1)}
+          }}
+        />
+      ),
     };
   };
 
@@ -92,6 +102,7 @@ export default class RecipeScreen extends React.Component {
             />
           </View>
         </View>
+
         <View style={styles.infoRecipeContainer}>
           <Text style={styles.infoRecipeName}>{item.title}</Text>
           <View style={styles.infoContainer}>

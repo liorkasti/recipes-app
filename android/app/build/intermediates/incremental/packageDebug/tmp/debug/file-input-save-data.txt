@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Tue Jan 26 19:53:39 IST 2021
+#Sat Jan 30 15:15:36 IST 2021
 56.path=lib/x86/libjsijniprofiler.so
 5.base=C\:\\Users\\user\\workspace\\RecipesApp\\android\\app\\build\\intermediates\\transforms\\mergeJniLibs\\debug\\0
 42.base=C\:\\Users\\user\\workspace\\RecipesApp\\android\\app\\build\\intermediates\\transforms\\mergeJniLibs\\debug\\0
